@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 # this will set panda to display a max of 16 rows
 from pandas import set_option
-set_option('display.max_rows', 16)
+set_option('display.max_rows', 20)
 
 filename = open(os.path.expanduser("~/Downloads/data/annual.txt"))
 # this brings in the file but will only load the data into 1 table
