@@ -118,3 +118,5 @@ print(mean_sea_level)
 
 # cleaning and formatting data
 print(sl_ls.columns)
+# Stopped at 1:48:00
+# https://www.youtube.com/watch?v=0CFFTJUZ2dc&t=5400s
