@@ -118,5 +118,25 @@ print(mean_sea_level)
 
 # cleaning and formatting data
 print(sl_ls.columns)
-# Stopped at 1:48:00
-# https://www.youtube.com/watch?v=0CFFTJUZ2dc&t=5400s
+
+# using a list comprehensions It can be used to construct lists in a very natural, easy way,
+# like a mathematician is used to do.
+
+sl_ls.columns = [name.strip().replace(".", "") for name in sl_ls.columns]
+print(sl_ls.columns)
+
+# we can also rename indexs also
+mean_sea_level.index.name = 'date'
+print(mean_sea_level.index.name)
+
+# if there are missing value this can handle it
+# np.nan is a value in numpy that would do this.
+
+# will search for this value and mark it as turn
+ull_globle_temp == -999.000
+
+​ull_globle_temp[ull_globle_temp == -999.000] = np.nan
+ull_globle_temp.tail()
+
+# Stopped at 2:01:33
+# https://youtu.be/0CFFTJUZ2dc?t=2h1m33s
