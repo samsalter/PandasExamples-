@@ -135,7 +135,7 @@ print(mean_sea_level.index.name)
 # will search for this value and mark it as turn
 ull_globle_temp == -999.000
 
-​ull_globle_temp[ull_globle_temp == -999.000] = np.nan
+ull_globle_temp[ull_globle_temp == -999.000] = np.nan
 ull_globle_temp.tail()
 
 # Stopped at 2:01:33
