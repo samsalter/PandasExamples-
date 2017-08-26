@@ -17,7 +17,7 @@ filename = open(os.path.expanduser("~/Downloads/data/annual.txt"))
 # we need to add colums to the table
 # we will add a index instead of letting pandas do it
 # we will set the year as the index which is under col=0
-# you can have more than 1 index by setting more than 1 col
+# you can have more than 1 index by setting more than 1 colg
 col = ['Year', 'Mean Temp']
 ull_globle_temp = pd.read_table(filename, sep='\s+', names=col,
                                 parse_dates=True, index_col=0)

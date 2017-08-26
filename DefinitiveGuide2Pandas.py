@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-set_option('display.max_rows', 20)
+set_option('display.max_rows', 10)
 
 filename = open(os.path.expanduser("~/Downloads/data/gapminder.tsv"))
 # filename = open(os.path.normpath("c:/users/jjenkins/downloads/data/gapminder.tsv"))
