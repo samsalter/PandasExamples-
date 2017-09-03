@@ -4,7 +4,7 @@ from pandas import set_option
 import matplotlib
 
 
-set_option('display.max_rows', 10)
+set_option('display.max_rows', 20)
 
 
 filename = open(os.path.expanduser("~/Downloads/data/titanic3.csv"))
